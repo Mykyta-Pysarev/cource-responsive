@@ -1,0 +1,160 @@
+body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-image: url(/pictures/background.png);
+    background-size: cover;
+}
+
+
+p, li{
+    font-size: 8pt;
+}
+
+h3 {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+main {
+    margin: 30px auto;
+    width: 210mm;
+    height: 297mm;
+    background-color: #EBEBED;
+}
+
+.header {
+    height:260px;
+    width:100%;
+    display:flex;
+    }
+
+.header h3 {
+    font-weight: normal;
+}
+
+.header-section-left {
+    width:30%;
+    background-image: url(/pictures/photo-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.candidate-photo {
+    height:50%;
+    width:50%;
+    background-image: url(/pictures/candidate-photo.png);
+    border-radius: 200px;
+}
+
+.header-section-right {
+    width:70%;
+    background-color: #D7D7D9;
+    display:flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content:center;
+}
+
+.candidate-name{
+    width:125mm;
+    height:145px;
+    background-color: #ECECEE;
+    display:flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content:center;
+}
+
+.candidate-name-text{
+    width:116mm;
+    height:115px;
+    border:3px #D7D7D9 solid;
+    background-color: #ECECEE;
+    display:flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content:center;
+}
+
+.candidate-name-text h1{
+    font-size: 29pt;
+    font-weight: bold;
+}
+
+.candidate-contact-info{
+    width: 125mm;
+    margin-top: 30px;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+}
+
+.candidate-contact-info h2{
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.content {
+    height: calc(100% - 260px);
+    display: flex;
+    border-top: 5px #D5D5D7 solid;
+}
+
+.content-left {
+    width: 30%;
+    background-color: #EAEAEC;
+}
+
+.left-section-title {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding:30px 10% 0 10%;
+    justify-content:space-between;
+}
+
+.section-title-decoration {
+height: 5px;
+width: 50px;
+background-color: #D2D2D4;
+}
+
+.left-section-text {
+    width: 80%;
+    padding:20px 10% 0 10%;
+}
+
+.content-right {
+    width: 70%;
+    background-color: #EAEAEC;
+    border-left: 5px #D5D5D7 solid;
+}
+
+.right-section-title {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding:30px 5% 0 5%;
+    justify-content:space-between;
+}
+
+.right-section-text {
+    width: 90%;
+    padding:20px 5% 0 5%;
+}
+
+.job-history {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
