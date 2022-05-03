@@ -14,7 +14,7 @@ p, li{
 }
 
 h3 {
-    font-size: 1.3vw;
+    font-size: 13pt;
     font-weight: bold;
 }
 
@@ -36,13 +36,14 @@ main {
     display:flex;
     }
 
-.header h3 {
+.header h2 {
     font-weight: normal;
 }
 
 .header-section-left {
     width:30%;
     background-image: url(/pictures/photo-bg.png);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +62,7 @@ main {
     display:flex;
     align-items: center;
     flex-flow: column;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 
 .candidate-name{
@@ -92,7 +93,6 @@ main {
 
 .candidate-contact-info{
     width: 55%;
-    margin-top: 30px;
     display:flex;
     align-items:flex-end;
     justify-content:space-between;
@@ -176,8 +176,6 @@ background-color: #D2D2D4;
 
     .candidate-contact-info{
         min-width: 90%;
-        flex-direction: column;
-        align-items: flex-start;
     }
 
     .candidate-name{
@@ -188,6 +186,10 @@ background-color: #D2D2D4;
     .candidate-name-text{
         min-width:calc(95% - 10px *2);
         height:calc(100% - 10px *2);
+    }
+
+    .candidate-name-text h1{
+        font-size: 20pt;
     }
 
     .content {
