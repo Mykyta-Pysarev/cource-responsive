@@ -5,6 +5,7 @@ body, html {
 
 body {
     background-image: url(/pictures/background.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -14,7 +15,7 @@ p, li{
 }
 
 h3 {
-    font-size: 13pt;
+    font-size: 10pt;
     font-weight: bold;
 }
 
@@ -43,7 +44,6 @@ main {
 .header-section-left {
     width:30%;
     background-image: url(/pictures/photo-bg.png);
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
